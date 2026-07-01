@@ -42,6 +42,8 @@ mvn clean package
 mvn spring-boot:run
 ```
 
-## ✅ Status
+## ✅ Hands-ons Completed
 
-Completed
+- ✅ Spring Boot Project Setup
+- ✅ Application Logging
+- ✅ Load Country from Spring Configuration XML
