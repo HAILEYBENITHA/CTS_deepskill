@@ -1,4 +1,4 @@
-# Exercise 4 - REST - Get country based on country code
+# Exercise 3 - REST - Get country based on country code
 
 ## Description
 
