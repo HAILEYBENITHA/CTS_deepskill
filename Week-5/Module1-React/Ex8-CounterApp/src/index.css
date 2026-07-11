@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.login-btn {
+  background-color: #27ae60;
+}
+
+.exit-btn {
+  background-color: #c0392b;
+}
