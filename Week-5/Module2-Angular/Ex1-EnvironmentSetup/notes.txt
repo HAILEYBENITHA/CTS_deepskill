@@ -1,0 +1,23 @@
+angular.json
+  Angular workspace configuration file. Defines project metadata, build architect, serve options, and production budgets.
+
+tsconfig.json
+  Root TypeScript configuration. Controls compiler options shared by the app and any build tools.
+
+tsconfig.app.json
+  App-specific TypeScript configuration (extends tsconfig.json). Sets the source root and app-specific compiler settings.
+
+package.json
+  NPM project manifest. Lists dependencies, scripts, and metadata for the Angular application.
+
+src/main.ts
+  Application entry point. Bootstraps the root AppComponent using bootstrapApplication (standalone mode).
+
+src/app/app.config.ts
+  Application configuration file (standalone mode). Provides the router and any global providers.
+
+src/app/app.component.ts
+  Root component definition. Contains the AppComponent class with the selector, template, and styles.
+
+src/index.html
+  Main HTML shell loaded by the browser. Contains the <app-root> tag where Angular mounts the application.
