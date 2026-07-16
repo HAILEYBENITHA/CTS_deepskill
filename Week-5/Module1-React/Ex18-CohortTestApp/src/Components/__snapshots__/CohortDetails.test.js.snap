@@ -1,0 +1,2 @@
+// Empty snapshot file - toMatchSnapshot generates the actual snapshot on first run.
+exports['Cohort Details Component should always render same html 1'] = '';
