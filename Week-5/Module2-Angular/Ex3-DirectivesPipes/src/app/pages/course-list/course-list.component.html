@@ -1,0 +1,19 @@
+<h2>Course List</h2>
+
+<!-- *ngIf with else block: show loading or course grid -->
+<ng-container *ngIf="isLoading; else courseGrid">
+  <p>Loading courses...</p>
+</ng-container>
+
+<ng-template #courseGrid>
+  <!-- *ngFor with trackBy to improve performance -->
+  <app-course-card
+    *ngFor="let course of courses; trackBy: trackByCourseId"
+    [course]="course"
+  ></app-course-card>
+
+  <!-- else template shown when courses array is empty -->
+  <ng-container *ngIf="courses.length === 0; else courseGrid">
+    <p>No courses available.</p>
+  </ng-container>
+</ng-template>
