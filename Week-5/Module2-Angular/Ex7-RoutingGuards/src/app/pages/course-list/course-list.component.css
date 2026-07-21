@@ -1,0 +1,11 @@
+.course-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 8px 0;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.course-item:hover {
+  background-color: #f0f0f0;
+}

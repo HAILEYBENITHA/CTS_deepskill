@@ -1,0 +1,30 @@
+<h2>Reactive Enrollment Form (Lazy Loaded)</h2>
+<form [formGroup]="enrollForm" (ngSubmit)="onSubmit()">
+  <label>
+    Student Name:
+    <input type="text" formControlName="studentName" />
+  </label>
+  <label>
+    Student Email:
+    <input type="email" formControlName="studentEmail" />
+  </label>
+  <label>
+    Course ID:
+    <input type="number" formControlName="courseId" />
+  </label>
+  <label>
+    Preferred Semester:
+    <select formControlName="preferredSemester">
+      <option value="Odd">Odd</option>
+      <option value="Even">Even</option>
+    </select>
+  </label>
+  <label>
+    <input type="checkbox" formControlName="agreeToTerms" />
+    I agree to the terms
+  </label>
+  <button type="submit" [disabled]="enrollForm.invalid">Submit</button>
+</form>
+<div *ngIf="submitted" class="success">
+  Enrollment request submitted successfully!
+</div>
