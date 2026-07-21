@@ -1,0 +1,13 @@
+{
+  "courses": [
+    { "id": 1, "name": "Data Structures", "code": "CS101", "credits": 4, "gradeStatus": "passed" },
+    { "id": 2, "name": "Algorithms", "code": "CS102", "credits": 3, "gradeStatus": "failed" },
+    { "id": 3, "name": "Web Development", "code": "CS103", "credits": 4, "gradeStatus": "passed" }
+  ],
+  "students": [
+    { "id": 1, "name": "Aarav Sharma", "email": "aarav@example.com" }
+  ],
+  "enrollments": [
+    { "id": 1, "studentId": 1, "courseId": 1 }
+  ]
+}

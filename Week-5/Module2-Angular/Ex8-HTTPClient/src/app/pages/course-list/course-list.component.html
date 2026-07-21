@@ -1,0 +1,9 @@
+<h2>Course List</h2>
+<div *ngIf="errorMessage" class="error">
+  {{ errorMessage }}
+</div>
+<ul>
+  <li *ngFor="let c of courses">
+    {{ c.name }} ({{ c.code }}) - Credits: {{ c.credits }}
+  </li>
+</ul>
