@@ -1,0 +1,9 @@
+<h2>Course List (NgRx)</h2>
+<div *ngIf="loading$ | async">Loading courses...</div>
+<ng-container *ngFor="let c of courses$ | async">
+  <div class="course-item">
+    <h3>{{ c.name }}</h3>
+    <p>{{ c.code }} - Credits: {{ c.credits }}</p>
+    <button (click)="onEnroll(c.id)">Enroll</button>
+  </div>
+</ng-container>
